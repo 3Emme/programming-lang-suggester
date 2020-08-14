@@ -36,25 +36,25 @@ $(document).ready(function() {
     event.preventDefault()
   });
 
-  $("select#q1").change(function(event) {
-    const q1 = $("select#q1").val();
+  $("input[name='quiz-question-4-radios']").change(function(event) {
+    const q4 = $("input[name='quiz-question-4-radios']:checked").val();
 
-    if (q1 === "q1a1"|| q1 === "q1a2"){
-      $("#quiz-question-2-row").show();
+    if (q4 === "q4a1"|| q4 === "q4a2"|| q4 === "q4a3"){
+      $("#quiz-question-5-row").show();
       } else {
-      $("#quiz-question-2-row").hide();
+      $("#quiz-question-5-row").hide();
       }
 
     event.preventDefault()
   });
 
-  $("select#q1").change(function(event) {
-    const q1 = $("select#q1").val();
+  $("input[name='quiz-question-5-radios']").change(function(event) {
+    const q5 = $("input[name='quiz-question-5-radios']:checked").val();
 
-    if (q1 === "q1a1"|| q1 === "q1a2"){
-      $("#quiz-question-2-row").show();
+    if (q5 === "q5a1"|| q5 === "q5a2"|| q5 === "q5a3"){
+      $("#quiz-submit-button").show();
       } else {
-      $("#quiz-question-2-row").hide();
+      $("#quiz-submit-button").hide();
       }
 
     event.preventDefault()
