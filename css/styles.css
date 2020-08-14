@@ -1,3 +1,19 @@
 #quiz-question-2-row{
   display: none;
 }
+
+#quiz-question-3-row{
+  display: none;
+}
+
+#quiz-question-4-row{
+  display: none;
+}
+
+#quiz-question-5-row{
+  display: none;
+}
+
+#quiz-submit-button{
+  display: none;
+}
