@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+  $("button#intro-start-button").click(function(event) {
+    
+    $("#quiz-question-1-row").show();
+    $("button#intro-start-button").hide();
+
+  });
+
   $("select#q1").change(function(event) {
     const q1 = $("select#q1").val();
 
