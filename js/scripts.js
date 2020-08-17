@@ -28,7 +28,6 @@ $(document).ready(function() {
   
   });
 
-
   $("select#q1").change(function(event) {
     const q1 = $("select#q1").val();
 
