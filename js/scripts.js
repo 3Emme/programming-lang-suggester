@@ -12,18 +12,21 @@ $(document).ready(function() {
     $("#answer-card-1").hide();
     $("#answer-card-2").hide();
     $("#answer-card-3").hide();
+    $("button#display-all-button").show();
     $("#answer-additional-actions").hide();
     $("#programming-lang-quiz").trigger("reset");
     $("button#intro-start-button").show();
 
   });
 
-  //$("button#intro-start-button").click(function(event) {
-  //  
-  //  $("#quiz-question-1-row").show();
-  //  $("button#intro-start-button").hide();
-  //
-  //});
+  $("button#display-all-button").click(function(event) {
+    
+    $("#answer-card-1").show();
+    $("#answer-card-2").show();
+    $("#answer-card-3").show();
+    $("button#display-all-button").hide();
+  
+  });
 
 
   $("select#q1").change(function(event) {
