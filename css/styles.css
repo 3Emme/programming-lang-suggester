@@ -37,3 +37,34 @@
 #answer-additional-actions{
   display: none;
 }
+
+footer{
+  text-align: center;
+  padding-top: 30px;
+}
+
+div{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#intro-head{
+  padding-bottom: 15px;
+}
+
+.btn{
+  text-align: center;
+}
+
+form#programming-lang-quiz{
+  /*width: 1140px;*/
+  width: 100%;
+}
+
+#quiz-img{
+  border-radius: 10%;
+  width: 30px;
+  height: 30px;
+  margin: 0 20px 0 20px;
+  float: right;
+}
