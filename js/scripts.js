@@ -97,13 +97,13 @@ $(document).ready(function() {
     
     $(".quiz-question-rows").hide();
     
-    if (q5 === "q5a1"){
+    if (q3 === "q3a2"){
       $("#answer-card-1").show();
       $("#answer-additional-actions").show();
-      } else if (q5 === "q5a2"){
+      } else if (q3 === "q3a1"){
       $("#answer-card-2").show();
       $("#answer-additional-actions").show();
-      } else if (q5 === "q5a3"){
+      } else if (q3 === "q3a3"){
       $("#answer-card-3").show();
       $("#answer-additional-actions").show();
     }
