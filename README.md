@@ -14,15 +14,15 @@ This application was created as an Epicodus assignment, with the intent to have 
 
   * Create an application for people interested in coding to decide which language they should learn first. Keep in mind that even though all languages have similarities and switching between languages and platforms is very common in both internships and jobs, applicants should still put some thought into which language they should learn. **[Complete]**
   * Choose at least three languages that prospective learners should consider. Here are some possibilities:
-    * Ruby **[To be completed: copy needed]**
-    * C# **[To be completed: copy needed]**
-    * JavaScript **[To be completed: copy needed]**
+    * Ruby **[Complete]**
+    * C# **[Complete]**
+    * JavaScript **[Complete]**
     * Go
     * Python
     * Rust
     * Swift
   * Feel free to pick any language that interests you, either from this list or from your own research.
-  * Then create a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. Note that you are not required to research the languages extensively and you can even choose silly or irrelevant questions to determine which language would be best - for instance, people that like singing in the rain may prefer Ruby while chihuahua lovers might prefer C#. **[To be completed: copy needed]**
+  * Then create a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. Note that you are not required to research the languages extensively and you can even choose silly or irrelevant questions to determine which language would be best - for instance, people that like singing in the rain may prefer Ruby while chihuahua lovers might prefer C#. **[Complete]**
     * Include a minimum of 5 survey questions. **[Complete]**
     * Offer a minimum of 3 different language suggestions. **[Complete]**
     * Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone. **[Complete]**
@@ -32,11 +32,11 @@ This application was created as an Epicodus assignment, with the intent to have 
 
   * All previous standards (last week's objectives) are in place (see below). **[Complete]**
   * Site uses branching to return the result. **[Complete]**
-  * jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.) **[To be completed: restart button functionality needed]**
+  * jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.) **[Complete]**
   * Form gathers input from the user. **[Complete]**
   * Variable names are descriptive of what they represent. **[Complete]**
   * Web page is styled using custom CSS. **[Complete]**
-  * The project is in a presentable, portfolio-quality state. **[To be completed: formatting needed]**
+  * The project is in a presentable, portfolio-quality state. **[Complete]**
   * Required functionality is in place by the Friday deadline. **[Complete]**
   * Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology. **[Complete]**
 
