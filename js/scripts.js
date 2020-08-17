@@ -7,6 +7,25 @@ $(document).ready(function() {
 
   });
 
+  $("button#quiz-restart-button").click(function(event) {
+    
+    $("#answer-card-1").hide();
+    $("#answer-card-2").hide();
+    $("#answer-card-3").hide();
+    $("#answer-additional-actions").hide();
+    $("#programming-lang-quiz").trigger("reset");
+    $("button#intro-start-button").show();
+
+  });
+
+  //$("button#intro-start-button").click(function(event) {
+  //  
+  //  $("#quiz-question-1-row").show();
+  //  $("button#intro-start-button").hide();
+  //
+  //});
+
+
   $("select#q1").change(function(event) {
     const q1 = $("select#q1").val();
 
@@ -74,7 +93,7 @@ $(document).ready(function() {
     const q4 = $("input[name='quiz-question-4-radios']:checked").val();
     const q5 = $("input[name='quiz-question-5-radios']:checked").val();
     
-    $("#quiz-row").hide();
+    $(".quiz-question-rows").hide();
     
     if (q5 === "q5a1"){
       $("#answer-card-1").show();
